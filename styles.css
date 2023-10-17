@@ -1,0 +1,31 @@
+body {
+    background-color: #1f2936;
+}
+
+.header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    align-items: center;
+    border: 3px solid red;
+    padding: 8px;
+    margin: 0 32px;
+}
+
+ul  {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+li  {
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
