@@ -133,5 +133,31 @@ button {
 .quote-container {
     height: 620px;
     width: auto;
-    background-color: red;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text-container {
+    max-width: 830px;
+}
+
+.quote-text {
+    padding: 0;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-author {
+    font-weight: 900;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.white-border {
+    border: 4px solid red;
 }
