@@ -1,25 +1,28 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: 0 100px;
-    /* background-color: #1f2936; */
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
-    color: #f9faf8;
-    font-size: 24px;
     background-color: #1f2936;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 16px;
+    padding: 16px 300px;
     margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .logo {
     width: 730px;
     font-weight: 900;
+    color: #f9faf8;
+    font-size: 24px;
+    padding-right: 32px;
 }
 
 ul  {
@@ -44,6 +47,7 @@ a {
     height: 500px;
     background-color: #1f2936;
     width: auto;
+    padding: 0 300px;
 
 }
 
@@ -67,7 +71,7 @@ a {
 
 .puppy {
     width: 600px;
-    height: 300px;
+    height: 280px;
 }
 
 button {
@@ -79,4 +83,12 @@ button {
     font-size: 20px;
     border: none;
     margin-top: 12px;
+}
+
+.random-info-container {
+    background-color: red;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    
 }
