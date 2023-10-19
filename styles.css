@@ -16,7 +16,6 @@ body {
 
 .container {
     display: flex;
-    border: 3px solid red;
     justify-content: space-between;
     align-items: center;
     padding: 0 10%;
@@ -44,39 +43,52 @@ a {
 }
 
 .top-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 700px;
+    height: 100%;
     background-color: #1f2936;
     width: auto;
-    flex-wrap: wrap;
-    padding: 0 10%;
+    padding: 10%;
+    border: 3px solid red;
 
 }
 
-.main-text {
+.sub-container {
+    border: 3px solid blue;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left-text {
+    border: 3px solid yellow;
     display: flex;
     flex-direction: column;
+}
+
+.main-text {
     font-size: 60px;
     color: #f9faf8;
-    width: 500px;
+    width: 8em;
     font-weight: bolder;
-    flex-shrink: 0;
-    flex-wrap: nowrap;
+    border: 3px solid green;
 }
 
 .sub-main-text {
     font-size: 24px;
     color: #f9faf8;
-    max-width: 600px;
+    max-width: 25em;
     padding: 16px 0 4px;
+    border: 3px solid red;
+    display: flex;
+    flex-shrink: 1;
+    flex-wrap: wrap;
     
 }
 
 .puppy {
+    display: flex;
     width: 770px;
     height: 350px;
+    flex-shrink: 1;
 }
 
 .sign-up-button {
@@ -93,6 +105,7 @@ a {
     margin-top: 12px;
     max-height: 60px;
     white-space: nowrap;
+    max-width: 30%
 }
 
 .info-container {
