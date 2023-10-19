@@ -62,6 +62,8 @@ a {
     border: 3px solid yellow;
     display: flex;
     flex-direction: column;
+    flex-shrink: 2;
+    max-width: 100%;
 }
 
 .main-text {
@@ -70,6 +72,7 @@ a {
     width: 8em;
     font-weight: bolder;
     border: 3px solid green;
+    max-width: 100%;
 }
 
 .sub-main-text {
