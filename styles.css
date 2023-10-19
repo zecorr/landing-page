@@ -109,7 +109,7 @@ a {
     margin: 12px 0;
     max-height: 60px;
     white-space: nowrap;
-    width: 7em;
+    width: 140px;
 }
 
 .info-container {
@@ -183,7 +183,6 @@ a {
 }
 
 .cta-container {
-    height: 500px;
     background-color: #f9faf8;
     display: flex;
     justify-content: center;
@@ -198,7 +197,7 @@ a {
     background-color: #3882F6;
     align-items: center;
     border-radius: 10px;
-    margin: 10%;
+    margin: 7% 15%;
 }
 
 .cta-text {
@@ -222,7 +221,7 @@ a {
     text-align: center;
     display: flex;
     justify-content: center;
-    height: 100px;
+    padding:  3% 0;
     background-color: #1F2937;
     font-size: 18px;
     color: #e5e7eb;
